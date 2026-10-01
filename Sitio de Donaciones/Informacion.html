@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Donaciones - Información</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>"¡Tu donación marca la diferencia!"</h1>
+        <nav>
+            <ul>
+                <li><a href="Donaciones.html">Historia y Misión</a></li>
+                <li><a href="Informacion.html">Información Sobre Donaciones</a></li>
+                <li><a href="Formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <center><h2>¿Porqué es importante Donar?</h2></center>
+            <div class="content">
+                <p> Donar a fundaciones y organizaciones benéficas es un acto de generosidad y solidaridad que juega un papel fundamental en la construcción de una 
+                    sociedad más justa y equitativa. Al contribuir con recursos financieros, materiales o humanos, se brinda apoyo directo a personas y comunidades 
+                    que enfrentan diversas adversidades, desde la pobreza hasta la falta de acceso a la educación o la atención médica. Estas donaciones no solo 
+                    satisfacen necesidades básicas, sino que también tienen un impacto transformador en la calidad de vida de los beneficiarios, al proporcionarles 
+                    oportunidades para crecer, desarrollarse y alcanzar su máximo potencial. Además de los beneficios individuales, las donaciones también tienen un
+                    impacto a nivel sistémico, al abordar problemas estructurales como la desigualdad, la injusticia y la exclusión social. Al fortalecer la 
+                    comunidad y fomentar la colaboración, las donaciones no solo mejoran las vidas de aquellos que las reciben, sino que también inspiran a otros 
+                    a unirse a la causa y trabajar juntos para crear un cambio duradero. En resumen, donar es una forma poderosa de hacer una diferencia tangible 
+                    en el mundo y de construir un futuro más prometedor y solidario para todos.</p>
+                <center><img src="https://fundacionsocialporbogota.org/wp-content/uploads/people_hearts_background4.jpg" alt="Importancia" height="300" width="600"></center>
+            </div>
+        </div>
+        <div class="donation-info-container">
+            <center><h2>Información sobre Donaciones</h2></center>
+            <div class="donation-content">
+                <div class="donation-list-container">
+                    <ul>
+                        <li class="donation-item" onclick="showDetails('monetarias')">Donaciones Monetarias</li>
+                        <li class="donation-item" onclick="showDetails('especie')">Donaciones en Especie</li>
+                        <li class="donation-item" onclick="showDetails('voluntariado')">Voluntariado</li>
+                    </ul>
+                </div>                
+                <div id="donationDetails" class="donation-details">
+                    <div id="monetarias" class="hidden-details-content">
+                        <center><h2>Donaciones Monetarias</h2></center>
+                        <p>Las donaciones monetarias son aportaciones financieras realizadas por individuos, empresas u organizaciones a una causa benéfica, sin 
+                            fines de lucro o a personas necesitadas. Estas donaciones pueden ser utilizadas para una variedad de propósitos, desde financiar programas 
+                            de ayuda y investigación hasta contribuir al desarrollo comunitario y proporcionar asistencia humanitaria. La flexibilidad de las 
+                            donaciones monetarias permite a las organizaciones beneficiarias asignar los fondos según las necesidades más urgentes o los proyectos 
+                            prioritarios, proporcionando una forma efectiva de respaldo para programas y servicios.</p>
+                            <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSej5nhX5--5Se5NYNJ7FCVzmrvsuvOwkaIDC1E2tdGuqARPXCUBy-v0W01t3PVaNTf1I&usqp=CAU" alt="Monetarias" height="300" width="600"></center>
+                    </div>
+                    <div id="especie" class="hidden-details-content">
+                        <center><h2>Donaciones en Especie</h2></center>
+                        <p>Las donaciones en especie implican la entrega de bienes o servicios en lugar de dinero. Estos pueden incluir alimentos, ropa, medicamentos, 
+                            equipo médico, materiales de construcción, juguetes y más. Las donaciones en especie son valiosas porque proporcionan recursos tangibles que
+                            pueden satisfacer necesidades específicas de manera inmediata. Además, pueden ser una forma efectiva de utilizar excedentes de inventario 
+                            o productos que de otra manera podrían ser desechados. Sin embargo, las donaciones en especie pueden enfrentar desafíos logísticos, como 
+                            el almacenamiento, transporte y distribución de los bienes, lo que requiere una coordinación eficiente por parte de las organizaciones 
+                            receptoras.</p>
+                            <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSJWrrhFUtm2Z574VzRiWJMZl6ALltS6qdhVos_cX-VGNEzfYBmGSIoUcj3gyRW6xtAgI&usqp=CAU" alt="Especie" height="300" width="600"></center>
+                    </div>
+                    <div id="voluntariado" class="hidden-details-content">
+                        <center><h2>Voluntariado</h2></center>
+                        <p>El voluntariado, aunque no implica donaciones monetarias ni en especie, implica la dedicación de tiempo, habilidades y esfuerzo personal para 
+                            apoyar causas benéficas y organizaciones sin fines de lucro. Los voluntarios ofrecen su trabajo de forma gratuita para llevar a cabo una 
+                            variedad de actividades, como enseñanza, cuidado de enfermos o ancianos, limpieza de áreas afectadas por desastres naturales y organización 
+                            de eventos de recaudación de fondos. Además de proporcionar ayuda práctica, el voluntariado promueve el crecimiento personal y fortalece la 
+                            comunidad al fomentar el sentido de pertenencia y solidaridad entre los participantes.</p>
+                            <center><img src="https://img.freepik.com/vector-premium/voluntarios-donaciones-concepto-voluntariado-caridad-personas-diversas-actividad-altruista-caracter_221062-1457.jpg" alt="Voluntariado" height="300" width="600"></center>
+                    </div>
+                </div>                                          
+            </div>
+        </div>                  
+    </main>
+    <footer>
+        <p>&copy; 2024 Juan Gerardo Galindo Pineda. Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

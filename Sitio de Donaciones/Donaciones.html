@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Donaciones</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>"¡Tu donación marca la diferencia!"</h1>
+            <nav>
+                <ul>
+                    <li><a href="Donaciones.html">Historia y Misión</a></li>
+                    <li><a href="Informacion.html">Información Sobre Donaciones</a></li>
+                    <li><a href="Formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="highlight-section">
+                <center><h2>Fundación Tuk</h2></center>
+                <div class="content">
+                    <p>Fundación Tuk es una asociación civil sin fines de lucro ubicada en la Ciudad de México. Su objetivo es brindar momentos de amor y alegría a 
+                        niños que padecen enfermedades crónicas, terminales, físicas o emocionales. Tuk desarrolla dos programas:
+                        <br><br>
+                        1. Realización de sueños: Cumplen los deseos de niños con enfermedades terminales, proporcionándoles experiencias significativas y especiales.
+                        <br>
+                        2. Atención a infantes en vulnerabilidad económica: Operan un centro comunitario donde atienden a niños en situación de riesgo. Además, ofrecen 
+                        talleres para las madres de los niños, enseñándoles oficios.
+                    </p>
+                    <center><img src="https://mundoongs.wordpress.com/wp-content/uploads/2012/01/a1804-fundaciontuka-c.png" alt="Tuk" height="200" width="200"></center>
+                </div>
+            </div>
+            <div class="history-mission-container">
+                <div class="history box-content">
+                    <center><h2>Historia de la Fundación</h2></center>
+                    <p>La Fundación Tuk es una asociación civil sin fines de lucro, integrada por un grupo de voluntarios con 
+                        iniciativa propia. Su historia se remonta a hace aproximadamente 3 años, cuando comenzaron a realizar eventos para niños en circunstancias 
+                        endebles debido a problemáticas psicológicas o de salud. El objetivo principal de la fundación es otorgar momentos de amor y alegría a 
+                        niños que padecen enfermedades crónicas, terminales, físicas o emocionales. Su misión es contagiar el deseo de vivir, y su visión es brindar 
+                        un día de dicha a pequeños en condiciones de enfermedad, a través de la realización de un anhelo interno o un momento de alegría que eleve 
+                        su estado de ánimo y el de su entorno.</p>
+                        <center><img class="rounded-corner" src="https://static.wixstatic.com/media/caa8fe_f145d131fb9e4aacb9e8ff98e5f1e224~mv2.jpg/v1/fill/w_854,h_420,al_c,lg_1,q_80/caa8fe_f145d131fb9e4aacb9e8ff98e5f1e224~mv2.jpg" alt="Apoyo" height="200" width="450"></center>
+                </div>
+                <div class="mission box-content">
+                    <center><h2>Misión y Visión de la Fundación</h2></center>
+                    <ul>
+                        <li>Proporcionar apoyo emocional:</li>
+                        <p>Tiene como objetivo principal ofrecer un entorno de apoyo emocional y afectivo para niños que enfrentan enfermedades crónicas, terminales, 
+                            físicas o emocionales. Esto incluye actividades recreativas, terapias de juego, sesiones de orientación y consejería para ayudar a 
+                            los niños a enfrentar sus desafíos con resiliencia y optimismo.</p>
+                        <li>Mejorar la calidad de vida:</li>
+                        <p>La fundación podría trabajar para mejorar la calidad de vida de los niños y sus familias proporcionando acceso a recursos médicos, educativos,
+                            sociales y económicos. Esto podría incluir la provisión de tratamientos médicos, medicamentos, equipos especializados, becas educativas y 
+                            asistencia financiera para cubrir gastos relacionados con la enfermedad.</p>
+                        <li>Concienciar y sensibilizar:</li>
+                        <p>La fundación podría tener como objetivo sensibilizar a la sociedad sobre las necesidades y desafíos que enfrentan los niños con enfermedades
+                            crónicas, terminales, físicas o emocionales, así como promover la solidaridad y la empatía hacia ellos. Esto podría lograrse a través de 
+                            campañas de concienciación, eventos de recaudación de fondos y colaboraciones con medios de comunicación y personalidades influyentes.</p>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <center><h2>Programas Principales: </h2></center>
+                <div class="content">
+                    <center><button onclick="toggleProgram('program1')">Mostrar/Ocultar Programa 1</button></center>
+                    <center><button onclick="toggleProgram('program2')">Mostrar/Ocultar Programa 2</button></center>
+
+                    <div id="program1" class="program" style="display: none;">
+                        <h2>Programa 1</h2>
+                        <p>Este programa se enfoca en hacer realidad los sueños y anhelos de niños que padecen enfermedades crónicas o terminales. La fundación 
+                            trabaja para proporcionar momentos de alegría y cumplir deseos internos, brindando un día especial a estos pequeños. A través de la 
+                            colaboración con hospitales y familias, se identifican los sueños de los niños y se organizan actividades o experiencias significativas 
+                            para ellos .</p>
+                            <!-- Botón para agregar elementos dinámicamente -->
+                            <button onclick="agregarElemento()" class="custom-button">¿Cómo se Aplica?</button>
+                            <!-- Contenedor dinámico para los puntos -->
+                            <div id="puntosContainer"></div>
+                            <center><img class="rounded-corner" src="https://www.atv.pe/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-17-at-9.51.31-AM.jpeg" alt="Niños" height="300" width="450"></center>
+                    </div>
+                    <div id="program2" class="program" style="display: none;">
+                        <h2>Programa 2</h2>
+                        <p>En su centro comunitario ubicado en la Ciudad de México, la fundación ofrece apoyo a niños en condiciones de vulnerabilidad económica. 
+                            Además, se capacita a las madres de los niños en diversos talleres mientras sus hijos reciben conocimientos y atención. El objetivo es 
+                            brindarles herramientas para mejorar su calidad de vida y bienestar .</p>
+                            <!-- Botón para agregar elementos dinámicamente -->
+                            <button onclick="agregarElemento2()" class="custom-button">¿Cómo se Aplica?</button>
+                            <!-- Contenedor dinámico para los puntos -->
+                            <div id="puntosContainer2"></div>
+                            <center><img class="rounded-corner" src="https://www.ayuda-mas.org/wp-content/uploads/2016/10/Getxo2.jpg" alt="vulnerabilidad" height="300" width="450"></center>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Juan Gerardo Galindo Pineda. Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
