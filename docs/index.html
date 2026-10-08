@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio de donaciones de Fundación Tuk: conoce nuestra misión, programas y formas de apoyar.">
+    <title>Fundación Tuk | Inicio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+        <div class="nav-container">
+            <a class="brand" href="index.html" aria-label="Fundación Tuk - Inicio">
+                <span class="brand-icon" aria-hidden="true">❤</span>
+                <span>
+                    <strong>Fundación Tuk</strong>
+                    <small>Solidaridad que transforma</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+                ☰
+            </button>
+
+            <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+                <a class="active" href="index.html">Inicio</a>
+                <a href="Informacion.html">Formas de ayudar</a>
+                <a href="#programas">Programas</a>
+                <a class="nav-cta" href="Formulario.html">Donar ahora</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <span class="eyebrow">Cada apoyo cuenta</span>
+                <h1>Transformamos solidaridad en oportunidades</h1>
+                <p>
+                    Apoyamos a niñas, niños y familias que atraviesan situaciones de vulnerabilidad
+                    mediante acompañamiento, experiencias significativas y acciones comunitarias.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="Formulario.html">Quiero donar</a>
+                    <a class="btn btn-secondary" href="#mision">Conocer nuestra misión</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats" aria-label="Impacto de la fundación">
+            <div class="container stats-grid">
+                <article>
+                    <strong>500+</strong>
+                    <span>Personas beneficiadas</span>
+                </article>
+                <article>
+                    <strong>100+</strong>
+                    <span>Voluntarios participantes</span>
+                </article>
+                <article>
+                    <strong>2</strong>
+                    <span>Programas principales</span>
+                </article>
+                <article>
+                    <strong>1 misión</strong>
+                    <span>Generar esperanza y bienestar</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="mision" class="section container">
+            <div class="section-heading">
+                <span class="eyebrow">Quiénes somos</span>
+                <h2>Fundación Tuk</h2>
+                <p>
+                    Somos una asociación civil sin fines de lucro que busca brindar momentos de amor,
+                    alegría y acompañamiento a niñas y niños con enfermedades crónicas, terminales,
+                    físicas o emocionales, así como a familias en condiciones de vulnerabilidad.
+                </p>
+            </div>
+
+            <div class="two-column">
+                <article class="card feature-card">
+                    <div class="icon-circle" aria-hidden="true">♥</div>
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        Crear experiencias positivas y redes de apoyo que fortalezcan el bienestar
+                        emocional, social y familiar de las personas beneficiarias.
+                    </p>
+                </article>
+
+                <article class="card feature-card">
+                    <div class="icon-circle" aria-hidden="true">★</div>
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        Ser una comunidad solidaria capaz de movilizar voluntarios y recursos para
+                        generar un impacto humano, responsable y sostenible.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="programas" class="section section-soft">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Nuestro trabajo</span>
+                    <h2>Programas principales</h2>
+                    <p>Conoce las dos líneas de apoyo que dan forma a nuestro trabajo comunitario.</p>
+                </div>
+
+                <div class="program-grid">
+                    <article class="program-card">
+                        <div class="program-image program-image-one" role="img" aria-label="Niños participando en una actividad de apoyo"></div>
+                        <div class="program-body">
+                            <span class="tag">Programa 01</span>
+                            <h3>Realización de sueños</h3>
+                            <p>
+                                Organizamos experiencias especiales para niñas y niños que enfrentan
+                                enfermedades crónicas o terminales, en coordinación con sus familias.
+                            </p>
+                            <button class="text-button" type="button" data-toggle="program1" aria-expanded="false">
+                                Ver cómo funciona
+                            </button>
+                            <div id="program1" class="program-details" hidden>
+                                <ul>
+                                    <li>Coordinación con familias y redes de apoyo.</li>
+                                    <li>Planeación de experiencias significativas.</li>
+                                    <li>Acompañamiento emocional durante la actividad.</li>
+                                    <li>Participación de voluntarios.</li>
+                                    <li>Seguimiento y documentación de resultados.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="program-card">
+                        <div class="program-image program-image-two" role="img" aria-label="Familia recibiendo apoyo comunitario"></div>
+                        <div class="program-body">
+                            <span class="tag">Programa 02</span>
+                            <h3>Apoyo comunitario</h3>
+                            <p>
+                                Facilitamos orientación, talleres y actividades formativas para familias
+                                que requieren acompañamiento y herramientas para mejorar su bienestar.
+                            </p>
+                            <button class="text-button" type="button" data-toggle="program2" aria-expanded="false">
+                                Ver cómo funciona
+                            </button>
+                            <div id="program2" class="program-details" hidden>
+                                <ul>
+                                    <li>Talleres de habilidades prácticas.</li>
+                                    <li>Orientación básica sobre organización familiar.</li>
+                                    <li>Actividades de bienestar y nutrición.</li>
+                                    <li>Fortalecimiento de redes comunitarias.</li>
+                                    <li>Participación de voluntarios y aliados.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="impact-panel">
+                <div>
+                    <span class="eyebrow">Súmate</span>
+                    <h2>Tu aportación puede convertirse en una experiencia que cambie una vida.</h2>
+                    <p>Puedes apoyar con una donación monetaria, en especie o mediante voluntariado.</p>
+                </div>
+                <a class="btn btn-light" href="Informacion.html">Conocer formas de ayudar</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>Fundación Tuk</strong>
+                <p>Proyecto académico de sitio web para gestión y promoción de donaciones.</p>
+            </div>
+            <div>
+                <p><strong>Navegación</strong></p>
+                <a href="index.html">Inicio</a>
+                <a href="Informacion.html">Formas de ayudar</a>
+                <a href="Formulario.html">Donar</a>
+            </div>
+            <div>
+                <p><strong>Contacto</strong></p>
+                <span>contacto@fundaciontuk.org</span>
+                <span>Ciudad de México, México</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span data-current-year></span> Juan Gerardo Galindo Pineda. Proyecto académico.</p>
+        </div>
+    </footer>
+</body>
+</html>
